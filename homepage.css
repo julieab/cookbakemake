@@ -1,0 +1,63 @@
+html {
+	  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#homepage {
+      	   text-align: center;
+      	   color: black;
+}
+
+#nav {
+      padding: 15px;
+      background: black;
+      text-align: center;
+      margin: -10px;
+}
+li { 
+      display: inline;
+      padding: 0px 15px 0px 15px; 
+      font-size: 17px;
+  } 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	width: 60px;
+	color: white;
+	text-decoration: none;
+}
+/* mouse over link */
+a:hover{ 
+	color: hotpink
+}
+h1 {
+	font-size: 100px;
+	color: white;
+}
+.overlay { 
+  position:absolute;
+  z-index:12;
+  top:10%;
+  left:0;
+  width:100%; 
+}
+.carousel img {
+    min-width: 100%;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    color: black;
+}

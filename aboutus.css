@@ -1,0 +1,56 @@
+html {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#homepage {
+      	text-align: center;
+      	color: black;
+}
+
+#nav {
+      padding: 10px;
+      background: black;
+      text-align: center;
+      margin: -10px;
+} 
+li {
+      display: inline;
+      padding: 0px 15px 0px 15px; 
+      font-size: 17px;
+  } 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	width: 60px;
+	color: white;
+	text-decoration: none;
+}
+/* mouse over link */
+a:hover{ 
+	color: hotpink
+}
+h1 {
+	font-size: 100px;
+      color: white;
+}
+#aboutpage{
+      border-style: double;
+      border-color: white;
+      border-width: 6px;
+      padding: 10px;
+      /*max-width: 200px;*/
+      text-align: center;
+      margin: -50px 275px 0px 275px;
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+}
+html {
+      background: url(images/pancakes.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
